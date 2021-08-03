@@ -1,0 +1,38 @@
+.rate-bar {
+    display: flex;
+}
+.hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-btn,
+.ant-input-wrapper,
+.ant-input-group-addon,
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 6px;
+}
+.item-input {
+    margin-bottom: 12px;
+}
+.loading-icon-header {
+    margin-right: 12px;
+}
+.ant-col {
+    position: unset;
+}
+
+.input-addon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.middle {
+        width: 30px;
+        height: 30px;
+    }
+}

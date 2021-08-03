@@ -1,0 +1,55 @@
+.admin-page {
+    margin-top: 12px;
+    height: calc(100vh - 68px);
+    display: flex;
+    .active {
+        color: #1768b2;
+    }
+}
+.admin-navigator {
+    background-color: white;
+    min-width: 200px;
+    max-width: 240px;
+    width: 20%;
+    height: fit-content;
+    padding: 24px;
+    box-shadow: $commonShadow;
+    margin-right: 12px;
+    > div {
+        margin-bottom: 24px;
+    }
+    > div:last-child {
+        margin-bottom: 0px;
+    }
+    .default-iatbutton {
+        position: relative;
+        left: 0px;
+        transition: left 0.2s;
+        border-radius: 3px;
+        > * {
+            margin-left: 12px;
+        }
+    }
+    .default-iatbutton:hover {
+        left: 12px;
+    }
+}
+.admin-table {
+    max-width: calc(100vw - 200px);
+    min-width: calc(100vw - 240px);
+    width: 80%;
+    box-shadow: $commonShadow;
+    background-color: white;
+
+    .user-container {
+        cursor: pointer;
+        color: #1768b2;
+    }
+}
+
+.user-view-modal {
+    width: 80vw !important;
+    .ant-modal-title {
+        font-family: $fontSemibold;
+    }
+}

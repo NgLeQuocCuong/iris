@@ -1,0 +1,42 @@
+$fontRegular: "Inter-regular";
+$fontBold: "Inter-bold";
+$fontMedium: "Inter-medium";
+$fontSemibold: "Inter-semibold";
+$textOne: #222222;
+$textTwo: #797979;
+$textDisable: #acacac;
+$line: #d0d0d0;
+$line40: #e6e6e6;
+$blue: #1768b2;
+$hover: #f9f9f9;
+$lg-origin: #3e5a82;
+$red: #ff5f73;
+$bg: #f1f1f1;
+
+$commonShadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+$inner-shadow-line-top: inset 0px 1px 0px rgba(0, 0, 0, 0.08);
+$inner-shadow-line-bot: inset 0px -1px 0px rgba(0, 0, 0, 0.08);
+
+@mixin font-16 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+@import "common";
+@import "table";
+@import "utils";
+@import "header";
+@import "search";
+@import "iatbutton";
+@import "detailPage";
+@import "productPage";
+@import "indexItem";
+@import "background";
+@import "field";
+@import "accountPage";
+@import "productGrid";
+@import "footer";
+@import "admin";
+@import "hoverWrapper";
+@import "toast";

@@ -1,0 +1,38 @@
+.big-logo {
+    background-image: url(../assets/images/logo_1200x500.png);
+    background-size: contain;
+    width: 24vw;
+    height: 10vw;
+}
+.account-form {
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba($color: white, $alpha: 0.45);
+    border-radius: 36px;
+    border: white 6px solid;
+    padding-top: 46px;
+    padding-bottom: 36px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    button {
+        min-width: 30%;
+    }
+    .container-class {
+        width: 60%;
+    }
+    .title {
+        font-family: "Inter-bold";
+        font-size: 24px;
+    }
+    > * {
+        margin-bottom: 12px;
+    }
+    > div {
+        // margin-bottom: 0px;
+    }
+}
+.align-left {
+    align-self: start;
+    margin-left: calc(20% + 15px);
+}

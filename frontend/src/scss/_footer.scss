@@ -1,0 +1,23 @@
+.main-footer {
+    box-shadow: $commonShadow;
+    background-color: white;
+    .content-wrapper {
+        display: flex;
+        > * {
+            padding: 24px 24px 0px 24px;
+            width: 50%;
+        }
+    }
+    .default-iatbutton {
+        padding: 12px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .contact-info {
+        border-right: 1px rgba($color: #ccc, $alpha: 0.5) solid;
+    }
+    .title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,53 @@
+.product-page {
+    display: flex;
+    .left-content {
+        width: 20%;
+        padding-right: 6px;
+    }
+    .right-content {
+        width: 80%;
+        padding-left: 6px;
+    }
+}
+.common-content-wrapper.filter{
+    >*{
+        margin-bottom: 12px;
+    }
+    >*:last-child{
+        margin-bottom: 0px!important;
+    }
+}
+
+.rate-filter {
+    .container-class{
+        width: 120px;
+        margin-bottom: 0px!important;
+    }
+    .ant-input{
+        display: flex;
+        justify-content: center;
+    }
+    .flexbox{
+        align-items: center;
+        height: 32px;
+        >div{
+            margin-right: 12px;
+        }
+    }
+}
+.price-filter {
+    .container-class{
+        margin-bottom: 0px!important;
+    }
+    .flexbox{
+        align-items: center;
+        // height: 32px;
+    }
+}
+.review-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

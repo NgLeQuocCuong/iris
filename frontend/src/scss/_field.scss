@@ -1,0 +1,15 @@
+.field-text-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .field-common {
+        width: 50%;
+    }
+}
+.ant-input-group-addon {
+    padding: 0;
+}
+
+.field-select-common {
+    width: 100%;
+}

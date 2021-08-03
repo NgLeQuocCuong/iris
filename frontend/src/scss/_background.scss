@@ -1,0 +1,31 @@
+$backgroundList: (
+    "https://i.pinimg.com/564x/bd/e2/51/bde25153a7eb8834c0d2288b8d96bcce.jpg",
+    "https://i.pinimg.com/564x/c0/1d/ae/c01dae099dc064fecbfd80a212da417b.jpg",
+    "https://i.pinimg.com/564x/53/df/b4/53dfb41ba972d3c5a107181f11de2756.jpg",
+    "https://i.pinimg.com/564x/94/14/bc/9414bcf7ea0fd1e900c32ea6d505f372.jpg",
+    "https://i.pinimg.com/564x/b8/b7/8a/b8b78a9226c2d57ed39bea37cffe4617.jpg",
+    "https://i.pinimg.com/564x/0e/9d/97/0e9d971192590e49f338780f1c350b4e.jpg",
+    "https://i.pinimg.com/564x/c3/1b/d1/c31bd1d8f3e575d98986ac6799c54177.jpg",
+    "https://i.pinimg.com/564x/c8/12/58/c812584415b0130943ac6ca42b46a390.jpg",
+    "https://i.pinimg.com/564x/23/c6/38/23c638c22c5019d8ca20461f31147f11.jpg",
+    "https://i.pinimg.com/564x/ad/7a/57/ad7a57f314719e768becb26fe32b7f56.jpg"
+);
+// @each $link in $backgroundList {
+//     .#{str-slice($link,36, -5)} {background: url($link);}
+// }
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-image: url("https://images5.alphacoders.com/572/thumb-1920-572116.jpg");
+    .main-content {
+        width: 40%;
+        margin-left: 55%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+}

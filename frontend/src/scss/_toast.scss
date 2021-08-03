@@ -1,0 +1,73 @@
+.toast-content {
+    display: flex;
+    align-items: center;
+    padding: 8px !important;
+}
+
+.toast-content-msg {
+    font-size: 14px;
+    line-height: 20px;
+    color: $textOne;
+    letter-spacing: 0.02em;
+    font-family: $fontRegular;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.toast-container {
+    min-width: 287px !important;
+    right: 24px !important;
+    width: 287px !important;
+}
+
+.ic-toast-success {
+    background-image: url('../assets/icons/ic-success.svg');
+}
+
+.ic-toast-error {
+    background-image: url('../assets/icons/ic-error.svg');
+}
+
+.ic-toast-info {
+    background-image: url('../assets/icons/ic-info-16.svg');
+}
+
+.ic-toast-warning {
+    background-image: url('../assets/icons/ic-warning.svg');
+}
+
+.toast-common {
+    background: #FFFFFF !important;
+    border-radius: 8px !important;
+    min-height: 48px !important;
+}
+
+.container-special-toast {
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.message-toast {
+    margin-left: 16px;
+    margin-right: 32px;
+}
+
+.container-common-toast {
+    height: inherit;
+    position: relative;
+}
+
+.content-toast {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

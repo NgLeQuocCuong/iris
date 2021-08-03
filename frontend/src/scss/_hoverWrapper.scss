@@ -1,0 +1,31 @@
+.default-hover-wrapper {
+    position: relative;
+    > .root {
+        height: 100%;
+    }
+    > .child {
+        position: absolute;
+    }
+    > .child.left {
+        left: 100%;
+        top: -12px;
+    }
+    > .child.align-right {
+        right: 0;
+    }
+}
+
+.hover-table {
+    z-index: 1200;
+    position: relative;
+    transition: all 2s !important;
+    padding: 12px;
+    box-shadow: 0 0 2px 2px rgba(204, 204, 204, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    .modal-content {
+        align-items: flex-start;
+        flex-direction: row;
+        padding: 12px;
+    }
+}
